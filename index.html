@@ -3,63 +3,205 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cuban Zumba — Baila a tu manera</title>
-<meta name="description" content="Cuban Zumba in Noordwijk. Elke donderdag 20:15–21:15. Eerste proefles gratis!">
+
+<title>Cuban Zumba – Baila a tu manera</title>
+
 <style>
-*{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#111;color:#fff}
-.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:35px 20px;
-background:linear-gradient(135deg,#151515 0%,#24100d 48%,#111 100%)}
-.wrap{max-width:900px}.tag{display:inline-block;padding:9px 16px;border:1px solid #fff;border-radius:30px;font-weight:bold}
-h1{font-size:clamp(48px,10vw,96px);line-height:.9;margin:22px 0 14px;text-transform:uppercase;letter-spacing:-3px}
-h1 span{display:block}.accent{font-size:clamp(20px,4vw,32px);font-weight:bold;margin:18px 0}
-.info{font-size:18px;line-height:1.7;margin:20px auto;max-width:650px}
-.btn{display:inline-block;padding:16px 28px;margin:8px;border-radius:40px;text-decoration:none;font-weight:bold;font-size:17px}
-.primary{background:#fff;color:#111}.secondary{border:1px solid #fff;color:#fff}
-.section{padding:70px 20px;text-align:center;background:#f5f5f5;color:#111}
-.section.dark{background:#191919;color:#fff}.cards{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;max-width:1000px;margin:30px auto}
-.card{padding:28px;border-radius:18px;background:#fff;max-width:290px;flex:1;min-width:230px}
-.dark .card{background:#292929;color:#fff} h2{font-size:38px;margin:0 0 18px}.free{font-size:25px;font-weight:bold}
-footer{padding:30px;text-align:center;background:#0b0b0b;color:#bbb}
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#111;
+  color:white;
+}
+
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:40px 20px;
+  background:
+    radial-gradient(circle at 15% 20%,#ff006e 0,transparent 30%),
+    radial-gradient(circle at 85% 25%,#ffbe0b 0,transparent 30%),
+    radial-gradient(circle at 20% 85%,#00e5ff 0,transparent 30%),
+    radial-gradient(circle at 80% 80%,#9cff00 0,transparent 30%),
+    linear-gradient(135deg,#5f00ff,#ff006e);
+}
+
+.hero-content{
+  max-width:800px;
+}
+
+.free{
+  display:inline-block;
+  background:#9cff00;
+  color:#111;
+  padding:10px 20px;
+  border-radius:30px;
+  font-weight:bold;
+  font-size:18px;
+  margin-bottom:20px;
+}
+
+h1{
+  font-size:clamp(55px,13vw,110px);
+  line-height:.85;
+  margin:10px 0;
+  text-transform:uppercase;
+}
+
+.cuban{
+  color:white;
+}
+
+.zumba{
+  color:#9cff00;
+}
+
+.slogan{
+  font-size:clamp(25px,6vw,45px);
+  font-weight:bold;
+  margin:20px 0;
+}
+
+.info{
+  font-size:19px;
+  line-height:1.7;
+}
+
+.btn{
+  display:inline-block;
+  text-decoration:none;
+  padding:16px 26px;
+  border-radius:30px;
+  margin:8px;
+  font-weight:bold;
+}
+
+.whatsapp{
+  background:#25D366;
+  color:white;
+}
+
+.more{
+  background:white;
+  color:#111;
+}
+
+.section{
+  padding:70px 20px;
+  text-align:center;
+  background:white;
+  color:#111;
+}
+
+.section h2{
+  font-size:36px;
+}
+
+.cards{
+  max-width:900px;
+  margin:35px auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+}
+
+.card{
+  padding:28px 20px;
+  border-radius:20px;
+  background:#f3f3f3;
+  font-size:18px;
+}
+
+.icon{
+  font-size:35px;
+}
+
+.prices{
+  background:#111;
+  color:white;
+}
+
+.prices .card{
+  background:#222;
+  color:white;
+}
+
+.price{
+  font-size:35px;
+  color:#9cff00;
+  font-weight:bold;
+}
+
+.contact{
+  margin-top:30px;
+}
+
+footer{
+  background:#050505;
+  text-align:center;
+  padding:35px 20px;
+  line-height:1.8;
+}
+
+footer a{
+  color:#9cff00;
+  text-decoration:none;
+}
 </style>
 </head>
+
 <body>
+
 <section class="hero">
-<div class="wrap">
-<div class="tag">🔥 EERSTE PROEFLES GRATIS</div>
-<h1>Cuban Zumba<span>💃</span></h1>
-<div class="accent">Baila a tu manera</div>
-<p class="info">Ontdek de energie van Cubaanse muziek, dans en Zumba. Geen ervaring nodig — kom bewegen, plezier maken en de sfeer voelen!</p>
-<p><strong>Elke donderdag · 20:15 – 21:15</strong><br>Culture Club Noordwijk<br>Keyserswey 69, Noordwijk</p>
-<a class="btn primary" href="https://wa.me/31620424909?text=Hallo%20Alex,%20ik%20wil%20graag%20meedoen%20aan%20de%20gratis%20proefles%20Cuban%20Zumba." target="_blank">💬 Aanmelden via WhatsApp</a>
-<a class="btn secondary" href="#info">Meer informatie</a>
+
+<div class="hero-content">
+
+<div class="free">🔥 GRATIS PROEFLES 🔥</div>
+
+<h1>
+<span class="cuban">CUBAN</span><br>
+<span class="zumba">ZUMBA</span>
+</h1>
+
+<div class="slogan">
+Baila a tu manera 💃
+</div>
+
+<p class="info">
+Ontdek de energie van Cubaanse muziek, dans en Zumba.<br>
+Geen ervaring nodig — kom bewegen, dansen en plezier maken!
+</p>
+
+<p class="info">
+<strong>Elke donderdag • 20:15 – 21:15</strong><br>
+Culture Club Noordwijk<br>
+Keyserswey 69, Noordwijk
+</p>
+
+<a class="btn whatsapp"
+href="https://wa.me/31620424909?text=Hallo%20Alex%2C%20ik%20wil%20graag%20meedoen%20aan%20een%20gratis%20proefles.">
+💬 Gratis proefles
+</a>
+
+<a class="btn more" href="#info">
+Meer informatie
+</a>
+
 </div>
 </section>
+
 
 <section class="section" id="info">
+
 <h2>Dans. Beweeg. Geniet.</h2>
-<p>Een energieke les met vooral Cubaanse ritmes en invloeden uit de Latin dans.</p>
-<div class="cards">
-<div class="card"><div class="free">🎟️ Gratis proefles</div><p>Probeer Cuban Zumba eerst helemaal gratis.</p></div>
-<div class="card"><div class="free">🔥 Voor iedereen</div><p>Je hoeft geen danservaring te hebben. Volg je eigen tempo.</p></div>
-<div class="card"><div class="free">🇨🇺 Cubaanse energie</div><p>Muziek, beweging en de sfeer van Cuba in één les.</p></div>
-</div>
-</section>
 
-<section class="section dark">
-<h2>Prijzen</h2>
-<div class="cards">
-<div class="card"><h3>4 lessen</h3><p class="free">€36</p><p>per maand</p></div>
-<div class="card"><h3>8 lessen</h3><p class="free">€90</p><p>geldig 3 maanden</p></div>
-<div class="card"><h3>Losse les</h3><p class="free">€12</p><p>als losse deelname</p></div>
-</div>
-<a class="btn primary" href="https://wa.me/31620424909?text=Hallo%20Alex,%20ik%20wil%20graag%20meer%20informatie%20over%20Cuban%20Zumba." target="_blank">Neem contact op</a>
-</section>
-
-<footer>
-<strong>Cuban Zumba — Baila a tu manera</strong><br>
-Alex Aldana · Noordwijk<br><br>
-© 2026 Cuban Zumba📧<br> <a href="mailto:aldanacalzadillaa@gmail.com" style="color:#fff">aldanacalzadillaa@gmail.com</a><br>
-📱 06 20424909<br>
-</footer>
-</body>
-</html>
+<p>
+Een energieke Zumba-les met vooral Cubaanse ritmes en invloeden.
+Iedereen
